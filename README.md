@@ -3,10 +3,12 @@
 ## Getting started
 
 ATS Installer is a script that automates the process of installing trafficserver. ATS Installer creates a SSL certificate using ZeroSSL and installs the cert into the traffic server.
-Also ATS Installer can install and configure healthcheck plugin, the datadog agent and the datadog plugin. 
+Also ATS Installer can install and configure healthcheck plugin, the datadog agent and the datadog plugin.
+
 ## Using ATS Installer
+
 ```
-wget https://gitlab.zenterprise.org/kenny/ats-installer/-/raw/main/ats-installer && chmod +x ats-installer && ./ats-installer
+wget https://raw.githubusercontent.com/diamondzxd/ATS-Installer/main/ats-installer.sh && chmod +x ats-installer.sh && ./ats-installer.sh
 ```
 
 ## Menu from ATS Installer
@@ -62,4 +64,3 @@ US3 - https://us3.datadoghq.com/integrations/traffic-server
 US5 - https://us5.datadoghq.com/integrations/traffic-server
 
 After that you will be able to see the ATS Dashboard in your dashboard screen.
-
